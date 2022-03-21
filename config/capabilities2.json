@@ -1,10 +1,14 @@
 
 { 
-  "capabilities":
-  {
-      "browserName": "Firefox",
-      "os": "Windows",
-      "os_version":"10",
-      "build": "Pytest Sample"
+  "capabilities": {
+    "bstack:options" : {
+      "os" : "OS X",
+      "osVersion" : "Big Sur",
+      "sessionName" : "OSX Big Sure Safari 14.1 - Sample Test",
+      "local" : "false",
+      "seleniumVersion" : "4.1.2"
+    },
+    "browserName" : "Safari",
+    "browserVersion" : "14.1"
   }
 }

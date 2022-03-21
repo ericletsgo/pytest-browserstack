@@ -21,8 +21,7 @@
         "local" : "false"
     }
   },
-  "capabilities3":
-  {
+  "capabilities3":{
     "bstack:options" : {
         "os" : "OS X",
         "osVersion" : "Monterey",
