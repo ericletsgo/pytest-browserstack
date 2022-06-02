@@ -30,7 +30,7 @@ def test_local():
   }
 
   driver = webdriver.Remote(
-    command_executor='https://ericwang11:y8pJzxhu1ZVYw6zyxqqs@hub-cloud.browserstack.com/wd/hub',
+    command_executor='https://<BROWSERSTACK_USER_NAME>:<BROWSERSTACK_ACCESS_KEY>@hub-cloud.browserstack.com/wd/hub',
     desired_capabilities=desired_cap)
 
   # Checks if local site is running
