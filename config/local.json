@@ -4,7 +4,7 @@
       "os" : "OS X",
       "osVersion" : "Monterey",
       "sessionName" : "OSX Monterey Chrome Latest - Local Test",
-      "local" : "false",
+      "local" : "true",
       "seleniumVersion" : "4.1.2"
     },
     "browserName" : "Chrome",

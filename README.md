@@ -13,12 +13,14 @@ PyTest Integration with BrowserStack.
 * Install dependencies `pip install -r requirements.txt`
 * Update `.browserstack` files with your [BrowserStack Username and Access Key](https://www.browserstack.com/accounts/settings)
 
-## Running your single tests
-* To run single tests, run `pytest --driver BrowserStack --variables config/capabilities1.json`
+## Running your single test
+* To run single test, run `pytest tests/test_single.py --driver BrowserStack --variables config/capability.json`
 
+## Running your local test
+* To run a local test, first go to tests/test_local.py and edit BROWSERSTACK_ACCESS_KEY on line 11 then run `pytest tests/test_local.py --driver BrowserStack`
 
 ## Running your parallel tests
-* To run parallel tests, run `paver run parallel`
+* To run parallel tests, run `pytest tests/test_parallel.py -n 3 --driver BrowserStack --variables config/capability.json`
 
  Understand how many parallel sessions you need by using our [Parallel Test Calculator](https://www.browserstack.com/automate/parallel-calculator?ref=github)
 
