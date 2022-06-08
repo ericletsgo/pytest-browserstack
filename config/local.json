@@ -3,10 +3,10 @@
     "bstack:options" : {
       "os" : "OS X",
       "osVersion" : "Monterey",
-      "sessionName" : "OSX Monterey Chrome Latest - Local Test",
       "local" : "true",
       "seleniumVersion" : "4.1.2"
     },
+    "name": "OSX Monterey Chrome Latest - Local Test",
     "browserName" : "Chrome",
     "browserVersion" : "latest"
   }
